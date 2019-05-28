@@ -16,7 +16,8 @@ import { TodosModule } from './modules/todos/todos.module';
       password: '',
       database: 'todos',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true
+      synchronize: true,
+      // debug : true
     }),
     TodosModule
   ],
